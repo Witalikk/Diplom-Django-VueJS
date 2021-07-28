@@ -1,0 +1,60 @@
+{
+  "name": "vue-fuse-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-carousel": "^1.0.6",
+    "axios": "^0.21.1",
+    "core-js": "^2.6.12",
+    "jquery": "^3.6.0",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.12",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-axios": "^3.2.4",
+    "vue-clickaway": "^2.2.2",
+    "vue-fuse": "^2.2.1",
+    "vue-i18n": "^8.24.2",
+    "vue-imask": "^6.0.7",
+    "vue-js-modal": "^1.3.35",
+    "vue-js-toggle-button": "^1.3.3",
+    "vue-renderless-carousel": "^1.3.1",
+    "vue-router": "^3.5.1",
+    "vue-ultimate-skeleton-cards": "^1.0.3",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "tailwindcss": "^1.9.6",
+    "vue-cli-plugin-i18n": "^0.6.1",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
